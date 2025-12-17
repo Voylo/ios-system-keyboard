@@ -41,12 +41,6 @@ macOS:
         ~ Z X C V B N M < > ?
       cmd+alt: #cmd
       cmd+alt+shift: #cmd+shift
-  space:
-    caps: \u{A0}
-    alt: \u{A0}
-    alt+shift: \u{A0}
-    cmd+alt: \u{A0}
-    alt+caps: \u{A0}
   deadKeys:
     alt: []
     alt+caps: []
