@@ -43,5 +43,3 @@ macOS:
   deadKeys:
     alt: []
     alt+caps: []
-
-longpress: !include tyv-longpress.yaml
