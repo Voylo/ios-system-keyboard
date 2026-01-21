@@ -1,0 +1,107 @@
+displayNames:
+  en: Tatar
+  ru: Татарский
+  tat: Татар теле
+
+decimal: ','
+
+iOS:
+  primary:
+    layers:
+      default: |
+        ё ү ө ә ң җ һ ъ
+        й ц у к е н г ш щ з х
+        ф ы в а п р о л д ж э
+        \s{shift} я ч с м и т ь б ю \s{backspace} 
+      shift: |
+        Ё Ү Ө Ә Ң Җ Һ Ъ
+        Й Ц У К Е Н Г Ш Щ З Х
+        Ф Ы В А П Р О Л Д Ж Э
+        \s{shift} Я Ч С М И Т Ь Б Ю \s{backspace}
+      symbols-1: |
+        1 2 3 4 5 6 7 8 9 0
+        - / : ; ( ) ₽ & @ "
+        \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+      symbols-2: |
+        [ ] { } # % ^ * + =
+        _ \ | ~ < > $ € ¥ •
+        \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+  iPad-9in:
+    layers:
+      default: |
+        \s{spacer:0.0}   й ц у к е н г ш щ з х ү  \s{backspace}
+        \s{spacer:0.0}   ф ы в а п р о л д ж э ә  \s{return}
+        \s{shift}        я ч с м и т ь б ю ң      \s{shift}
+      shift: |
+        \s{spacer:0.0}   Й Ц У К Е Н Г Ш Щ З Х Ү  \s{backspace}
+        \s{spacer:0.0}   Ф Ы В А П Р О Л Д Ж Э Ә  \s{return}
+        \s{shift}        Я Ч С М И Т Ь Б Ю Ң      \s{shift}
+      alt: |
+        \s{spacer:0.0}   1 2 3 4 5 6 7 8 9 0 « »  \s{backspace}
+        \s{spacer:0.0}   @ # № $ ´ & * ( ) ° ‘ “  \s{return}
+        \s{shift}        % _ - + = / ; : , .      \s{shift}
+      alt+shift: |
+        \s{spacer:0.0}   1 2 3 4 5 6 7 8 9 0 « »  \s{backspace}
+        \s{spacer:0.0}   @ # № $ ´ & * ( ) ° ‘ “  \s{return}
+        \s{shift}        % _ - + = / ; : , .      \s{shift}
+      symbols-1: |
+        \s{spacer:0.0}   1 2 3 4 5 6 7 8 9 0 « »  \s{backspace}
+        \s{spacer:0.0}   @ # № $ ´ & * ( ) ° ‘ “  \s{return}
+        \s{shiftSymbols} % _ - + = / ; : , .      \s{shiftSymbols}
+      symbols-2: |
+        \s{spacer:0.0}   1 2 3 4 5 6 7 8 9 0 « »  \s{backspace}
+        \s{spacer:0.0}   € £ ¥ ± • ` ^ [ ] ⌀ { }    \s{return}
+        \s{shiftSymbols} § | ~ … ≠ \ < > ! ?      \s{shiftSymbols}
+  iPad-12in:
+    layers:
+      default: |
+        (                “ - ү ө ә , . ң җ һ « » =   \s{backspace:1.5}
+        \s{tab:1.5}      й ц у к е н г ш щ з х ъ ё
+        \s{caps:1.75}    ф ы в а п р о л д ж э       \s{return:1.75}
+        \s{shift:1.25} ] я ч с м и т ь б ю /         \s{shift:2.25}
+      shift: |
+        )                ! — Ү Ө Ә ; : Ң Җ Һ [ ] +   \s{backspace:1.5}
+        \s{tab:1.5}      Й Ц У К Е Н Г Ш Щ З Х Ъ Ё   
+        \s{caps:1.75}    Ф Ы В А П Р О Л Д Ж Э       \s{return:1.75}
+        \s{shift:1.25} [ Я Ч С М И Т Ь Б Ю ?         \s{shift:2.25}
+      alt: |
+        `                1 2 3 4 5 6 7 8 9 0 < >     \s{backspace:1.5}
+        \s{tab:1.5}      [ ] { } # % ^ * + = \ |    
+        \s{caps:1.75}    - / : ; ( ) $ & @ £ ¥ ~     \s{return:1.75}
+        \s{shift:1.25}     … . , ? ! ' " _ €         \s{shift:2.25}
+      alt+shift: |
+        `                1 2 3 4 5 6 7 8 9 0 < >     \s{backspace:1.5}
+        \s{tab:1.5}      [ ] { } # % ^ * + = \ |      
+        \s{caps:1.75}    - / : ; ( ) $ & @ £ ¥ ~     \s{return:1.75}
+        \s{shift:1.25}     … . , ? ! ' " _ €         \s{shift:2.25}
+      symbols-1: |
+        `                1 2 3 4 5 6 7 8 9 0 < >     \s{backspace:1.5}
+        \s{tab:1.5}      [ ] { } # % ^ * + = \ |      
+        \s{caps:1.75}    - / : ; ( ) $ & @ £ ¥ ~     \s{return:1.75}
+        \s{shift:1.25}     … . , ? ! ' " _ €         \s{shift:2.25}
+      symbols-2: |
+        `                1 2 3 4 5 6 7 8 9 0 < >     \s{backspace:1.5}
+        \s{tab:1.5}      [ ] { } # % ^ * + = \ |     
+        \s{caps:1.75}    - / : ; ( ) $ & @ £ ¥ ~     \s{return:1.75}
+        \s{shift:1.25}     … . , ? ! ' " _ €         \s{shift:2.25}
+  deadKeys:
+    alt: []
+
+longpress: !include tat-longpress.yaml
+
+keyNames:
+  space: Бушлык
+  return: Керү
+  return-alts:
+    search: Эзләү
+    go: Күчәргә
+    send: Җибәрү
+    join: Кушылу
+    continue: Дәвам итү
+    done: Әзер
+    next: Алга
+    route: Маршрут
+  emergency: SOS
+  cancel: Кире кагу
+  undo: Кире кайтару
+  redo: Кабатлау
