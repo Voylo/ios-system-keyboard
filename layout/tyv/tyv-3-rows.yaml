@@ -4,6 +4,8 @@ displayNames:
   tyv: Тыва
 
 decimal: ','
+ABC: 'ӨҢҮ'
+abc: 'өңү'
 
 iOS:
   primary:
