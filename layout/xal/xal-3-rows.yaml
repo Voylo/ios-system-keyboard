@@ -1,0 +1,107 @@
+displayNames:
+  en: Kalmyk
+  ru: Калмыцкий
+  xal: Хальмг
+
+decimal: ','
+ABC: 'АӘБ'
+abc: 'аәб'
+
+iOS:
+  primary:
+    layers:
+      default: |
+        й ц у к е н г ш ң з х һ
+        ү ы в а ә р о л д җ э ө
+        \s{shift} я ч с м и т ь б ю \s{backspace}
+      shift: |
+        Й Ц У К Е Н Г Ш Ң З Х Һ
+        Ү Ы В А Ə Р О Л Д Җ Э Ө
+        \s{shift} Я Ч С М И Т Ь Б Ю \s{backspace}
+      symbols-1: |
+        1 2 3 4 5 6 7 8 9 0
+        - / : ; ( ) ₽ & @ "
+        \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+      symbols-2: |
+        [ ] { } # % ^ * + =
+        _ \ | ~ < > $ € ¥ •
+        \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+  iPad-9in:
+    layers:
+      default: |
+        \s{spacer:0.3}   й ц у к е н г ш ң з х һ \s{spacer:1.7}
+        \s{spacer:0.6}   ү ы в а ә р о л д җ э ө \s{return:1.4}
+        \s{shift}        я ч с м и т ь б ю п   \s{shift:2.0}
+      shift: |
+        \s{spacer:0.3}   Й Ц У К Е Н Ң Г Ш З Х Һ \s{spacer:1.7}
+        \s{spacer:0.6}   Ү Ы В А Ə Р О Л Д Җ Э Ө \s{return:1.4}
+        \s{shift}        Я Ч С М И Т Ь Б Ю П   \s{shift:2.0}
+      alt: |
+        \s{spacer:0.3}   1 2 3 4 5 6 7 8 9 0 — \s{backspace:1.7}
+        \s{spacer:0.6}   @ # № $ ´ & * ( ) ‘ “ \s{return:1.4}
+        \s{shift}        % _ - + = / ; : , .   \s{shift:2.0}
+      alt+shift: |
+        \s{spacer:0.3}   1 2 3 4 5 6 7 8 9 0 — \s{backspace:1.7}
+        \s{spacer:0.6}   @ # № $ ´ & * ( ) ‘ “ \s{return:1.4}
+        \s{shift}        % _ - + = / ; : , .   \s{shift:2.0}
+      symbols-1: |
+        \s{spacer:0.3}   1 2 3 4 5 6 7 8 9 0 — \s{backspace:1.7}
+        \s{spacer:0.6}   @ # № $ ´ & * ( ) ‘ “ \s{return:1.4}
+        \s{shiftSymbols} % _ - + = / ; : , .   \s{shiftSymbols:2.0}
+      symbols-2: |
+        \s{spacer:0.3}   1 2 3 4 5 6 7 8 9 0 — \s{backspace:1.7}
+        \s{spacer:0.6}   € £ ¥ ± • ` ^ [ ] { } \s{return:1.4}
+        \s{shiftSymbols} § | ~ … ≠ \ < > ! ?   \s{shiftSymbols:2.0}
+  iPad-12in:
+    layers:
+      default: |
+        >                1 2 3 4 5 6 7 8 9 0 - = \s{backspace:1.5}
+        \s{tab:1.5}      й ц у к е н г ш ң з х һ \s{return}
+        \s{caps:1.75}    ү ы в а ә р о л д җ э ө \s{return:0.75}
+        \s{shift:1.25} ] я ч с м и т ь б ю п   / \s{shift:2.25}
+      shift: |
+        <                ! ” № % : , . ; ( ) _ + \s{backspace:1.5}
+        \s{tab:1.5}      Й Ц У К Е Н Г Ш Ң З Х Һ \s{return}
+        \s{caps:1.75}    Ү Ы В А Ə Р О Л Д Җ Э Ө \s{return:0.75}
+        \s{shift:1.25} [ Я Ч С М И Т Ь Б Ю П     \s{shift:2.25}
+      alt: |
+        `                1 2 3 4 5 6 7 8 9 0 < > \s{backspace:1.5}
+        \s{tab:1.5}      [ ] { } # % ^ * + = \ | \s{return}
+        \s{caps:1.75}    - / : ; ( ) $ & @ £ ¥ ~ \s{return:0.75}
+        \s{shift:1.25}     … . , ? ! ' " _ €     \s{shift:2.25}
+      alt+shift: |
+        `                1 2 3 4 5 6 7 8 9 0 < > \s{backspace:1.5}
+        \s{tab:1.5}      [ ] { } # % ^ * + = \ | \s{return}
+        \s{caps:1.75}    - / : ; ( ) $ & @ £ ¥ ~ \s{return:0.75}
+        \s{shift:1.25}     … . , ? ! ' " _ €     \s{shift:2.25}
+      symbols-1: |
+        `                1 2 3 4 5 6 7 8 9 0 < > \s{backspace:1.5}
+        \s{tab:1.5}      [ ] { } # % ^ * + = \ | \s{return}
+        \s{caps:1.75}    - / : ; ( ) $ & @ £ ¥ ~ \s{return:0.75}
+        \s{shift:1.25}     … . , ? ! ' " _ €     \s{shift:2.25}
+      symbols-2: |
+        `                1 2 3 4 5 6 7 8 9 0 < > \s{backspace:1.5}
+        \s{tab:1.5}      [ ] { } # % ^ * + = \ | \s{return}
+        \s{caps:1.75}    - / : ; ( ) $ & @ £ ¥ ~ \s{return:0.75}
+        \s{shift:1.25}     … . , ? ! ' " _ €     \s{shift:2.25}
+  deadKeys:
+    alt: ['¯', '¨', '´']
+
+longpress: !include xal-longpress.yaml
+
+keyNames:
+  space: Зә
+  return: Орулх
+  return-alts:
+    search: Хәәх
+    go: Шилҗх
+    send: Илгәх
+    join: Холвгдх
+    continue: Үрглҗлх
+    done: Белн
+    next: Цааран
+    route: Чиглл
+  emergency: SOS
+  cancel: Цуцлх
+  undo: Буцах
+  redo: Сергәх
