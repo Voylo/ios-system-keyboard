@@ -26,12 +26,12 @@ macOS:
       caps+shift: *SHIFT
       alt: &ALT |
         ] ! @ # $ % ^ & * { } – »
-          ј џ ќ ® † њ ѓ ѕ щ ' " ъ ё
+          ј џ ќ ® † ´ ѓ ѕ щ ' " ъ ё
           ф ы ћ ÷ © ₽ ° љ ∆ … э
           ђ ≈ ≠ µ и ™ ~ ≤ ю "
       alt+shift: |
         [ | " £ € ∞ ¬ ¶ √ ' ` — «
-          Ј Џ Ќ ® † Њ Ѓ Ѕ Щ ' " Ъ Ё
+          Ј Џ Ќ ® † ´ Ѓ Ѕ Щ ' " Ъ Ё
           Ф Ы Ћ ÷ © ₽ • Љ ∆ … Э
           Ђ ≈ ≠ µ И ™ ~ < Ю „
       alt+caps: *ALT
@@ -48,5 +48,5 @@ macOS:
       cmd+alt: *CMD
       cmd+alt+shift: *CMD+SHIFT
   deadKeys:
-    alt: ["\u0301"]
+    alt: ["´"]
     alt+caps: []
