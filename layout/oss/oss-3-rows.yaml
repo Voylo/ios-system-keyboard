@@ -4,6 +4,8 @@ displayNames:
   oss: Ирон ӕвзаг
 
 decimal: ','
+ABC: 'АӔБ'
+abc: 'аӕб'
 
 iOS:
   primary:
@@ -11,11 +13,11 @@ iOS:
       default: |
         й ц у к е н г ӕ ш з х
         ф ы в а п р о л д ж э
-        \s{shift} я ч с м и т ь б ю \s{backspace}
+        \s{shift} я ч с м и т ъ б ю \s{backspace}
       shift: |
         Й Ц У К Е Н Г Ӕ Ш З Х
         Ф Ы В А П Р О Л Д Ж Э
-        \s{shift} Я Ч С М И Т Ь Б Ю \s{backspace}
+        \s{shift} Я Ч С М И Т Ъ Б Ю \s{backspace}
       symbols-1: |
         1 2 3 4 5 6 7 8 9 0
         - / : ; ( ) ₽ & @ "
@@ -56,7 +58,7 @@ iOS:
         >                1 2 3 4 5 6 7 8 9 0 - = \s{backspace:1.5}
         \s{tab:1.5}      й ц у к е н г ӕ ш з х ъ \s{return}
         \s{caps:1.75}    ф ы в а п р о л д ж э ё \s{return:0.75}
-        \s{shift:1.25} ] я ч с м и т ь б ю ц ф / \s{shift:2.25}
+        \s{shift:1.25} ] я ч с м и т ь б ю /     \s{shift:2.25}
       shift: |
         <                ! ” № % : , . ; ( ) _ + \s{backspace:1.5}
         \s{tab:1.5}      Й Ц У К Е Н Г Ӕ Ш З Х Ъ \s{return}
