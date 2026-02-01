@@ -85,7 +85,7 @@ iOS:
   deadKeys:
     alt: ['¯', '¨', '´']
     
-longpress: !include tat-longpress.yaml
+longpress: !include tat-3-rows-rus-longpress.yaml
 
 keyNames:
   space: Буш ара

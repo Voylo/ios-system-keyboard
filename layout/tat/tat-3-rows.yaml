@@ -53,15 +53,15 @@ iOS:
   iPad-12in:
     layers:
       default: |
-        >                1 2 3 4 5 6 7 8 9 0 - =     \s{backspace:1.5}
+        >                1 2 3 4 5 6 7 8 9 0 - =   \s{backspace:1.5}
         \s{tab:1.5}      й ө у к е н г ш ә з х ү
-        \s{caps:1.75}    ф ы в а п р о л д ң э һ     \s{return:1.75}
-        \s{shift:1.25} ] я ч с м и т җ ь б ю /         \s{shift:2.25}
+        \s{caps:1.75}    ф ы в а п р о л д ң э һ   \s{return:1.75}
+        \s{shift:1.25} ] я ч с м и т җ ь б ю /     \s{shift:2.25}
       shift: |
         <                ! ” № % : , . ; ( ) _ +   \s{backspace:1.5}
         \s{tab:1.5}      Й Ө У К Е Н Г Ш Ә З Х Ү   
-        \s{caps:1.75}    Ф Ы В А П Р О Л Д Ң Э Һ     \s{return:1.75}
-        \s{shift:1.25} [ Я Ч С М И Т Җ Ь Б Ю ?         \s{shift:2.25}
+        \s{caps:1.75}    Ф Ы В А П Р О Л Д Ң Э Һ   \s{return:1.75}
+        \s{shift:1.25} [ Я Ч С М И Т Җ Ь Б Ю ?     \s{shift:2.25}
       alt: |
         `                1 2 3 4 5 6 7 8 9 0 < >     \s{backspace:1.5}
         \s{tab:1.5}      [ ] { } # % ^ * + = \ |    
@@ -85,7 +85,7 @@ iOS:
   deadKeys:
     alt: ['¯', '¨', '´']
     
-longpress: !include tat-longpress.yaml
+longpress: !include tat-3-rows-longpress.yaml
 
 keyNames:
   space: Буш ара
