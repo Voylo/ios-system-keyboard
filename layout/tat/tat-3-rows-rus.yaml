@@ -4,6 +4,8 @@ displayNames:
   tt: Татарча (урыс)
 
 decimal: ','
+ABC: 'АӘБ'
+abc: 'аәб'
 
 iOS:
   primary:
