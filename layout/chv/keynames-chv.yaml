@@ -1,0 +1,17 @@
+# Incomplete
+keyNames:
+  space: Сиктерчӗк
+  return: Кӗрт
+  return-alts:
+    search: Шыра
+    go: Куҫ
+    send: Яр
+    join: Кӗр
+    continue: Продолжить
+    done: Хатӗр
+    next: Далее
+    route: Йӗрле
+  emergency: SOS
+  cancel: Пӑрахӑҫла
+  undo: Тавӑр
+  redo: Повторить
