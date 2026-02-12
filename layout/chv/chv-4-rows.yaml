@@ -91,3 +91,6 @@ iOS:
         \s{shift:1.25}     … . , ? ! ' " _ €     \s{shift:2.25}
   deadKeys:
     alt: ['¯', '¨', '´']
+
+longpress: !include chv-4-rows-longpress.yaml
+keyNames: !include keynames-chv.yaml

@@ -88,3 +88,4 @@ iOS:
     alt: ['¯', '¨', '´']
 
 longpress: !include chv-standard-longpress.yaml
+keyNames: !include keynames-chv.yaml
