@@ -1,8 +1,7 @@
-# Incomplete
 displayNames:
-  chv: Чӑваш (4 рет)
   eng: Chuvash (4 rows)
   rus: Чувашский (4 ряда)
+  chv: Чӑваш (4 рет)
 
 decimal: ','
 ABC: 'АӐБ'
@@ -91,3 +90,6 @@ iOS:
         \s{shift:1.25}     … . , ? ! ' " _ €     \s{shift:2.25}
   deadKeys:
     alt: ['¯', '¨', '´']
+
+longpress: !include chv-4-rows-longpress.yaml
+keyNames: !include keynames-chv.yaml

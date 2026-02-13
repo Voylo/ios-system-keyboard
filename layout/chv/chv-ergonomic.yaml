@@ -87,4 +87,5 @@ iOS:
   deadKeys:
     alt: ['¯', '¨', '´']
 
-longpress: !include chv-compact-longpress.yaml
+longpress: !include chv-ergonomic-longpress.yaml
+keyNames: !include keynames-chv.yaml
