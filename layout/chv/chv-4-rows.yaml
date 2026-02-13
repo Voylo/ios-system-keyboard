@@ -1,8 +1,7 @@
-# Incomplete
 displayNames:
-  chv: Чӑваш (4 рет)
   eng: Chuvash (4 rows)
   rus: Чувашский (4 ряда)
+  chv: Чӑваш (4 рет)
 
 decimal: ','
 ABC: 'АӐБ'
