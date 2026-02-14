@@ -1,4 +1,4 @@
-# 🇷🇺 Датасет кириллических клавиатур для iOS/macOS
+# 🇷🇺 Датасет клавиатур для iOS/macOS
 
 Этот репозиторий содержит данные для системной клавиатуры на iOS/macOS. Например, **Тувинский (Тыва дыл)**.  
 Датасет подготовлен для использования в системах ввода (например, Apple Keyboard, Unicode CLDR и других).
@@ -47,9 +47,9 @@ iOS:
 
 ---
 
-# 🇺🇸 Dataset for Cyrillic iOS/macOS Keyboards
+# 🇺🇸 Dataset for iOS/macOS Keyboards
 
-This repository contains layout data for Cyrillic languages. For example, the **Tuvan Cyrillic keyboard**,
+This repository contains layout data for any languages. For example, the **Tuvan Cyrillic keyboard**,
 designed for integration with Apple Keyboard, Unicode CLDR, and related input systems.
 
 ## 📘 Description
