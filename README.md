@@ -92,4 +92,4 @@ iOS:
 
 ## 🌍 Contact
 Author: **Ali Kuzhuget**  
-Project: *Apple Cyrillic Keyboards for All*
+Project: *Apple Keyboards for All*
