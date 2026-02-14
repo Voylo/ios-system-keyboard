@@ -7,6 +7,10 @@ There are 2 layers: tyv-3-rows and tyv-4-rows. 3 rows layout is default one. It 
 
 For iPad keyboard versions there is only 1 version, because there are enough space to put Tuvan letters.
 
+Sorting versions:
+* tyv-3-rows.yaml
+* tyv-4-rows.yaml
+
 ## Tuvan macOS
 
 Keyboard uses swapping/replacing less frequent letters (ФЩУ) to ӨҢҮ letters, making less frequent letters accessible via `Option` (aka `ALT`).
