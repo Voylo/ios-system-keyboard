@@ -32,6 +32,6 @@ iOS:
   iPad-12in: !include tyv-3-rows.yaml#iOS#iPad-12in
   deadKeys: !include tyv-3-rows.yaml#iOS#deadKeys
 
-longpress: none
+longpress: !include tyv-longpress-short.yaml
 
 keyNames: !include tyv-3-rows.yaml#keyNames
