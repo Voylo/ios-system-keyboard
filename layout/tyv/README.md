@@ -1,7 +1,7 @@
 # **Tuvan (tyv) native iOS/macOS keyboards.**
 
 ## Tuvan iOS
-There are 2 layers: tyv-3-rows and tyv-4-rows. 3 rows layout is default one. It uses swapping/replacing less frequent letters (ФЩУ) to ӨҢҮ letters, making less frequent letters accessible via longpress.
+There are 2 layers: tyv-3-rows and tyv-4-rows. 3 rows layout is default one. It uses swapping/replacing less frequent letters (ФЩЦ) to ӨҢҮ letters, making less frequent letters accessible via longpress.
 
 4 rows keyboard is additional for people who don't like to longpress letters, also its 2-4 rows are exactly same as Russian keyboard – so it can be called `Tuvan based on Russian`.
 
