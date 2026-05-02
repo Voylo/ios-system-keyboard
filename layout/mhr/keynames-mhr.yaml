@@ -1,0 +1,15 @@
+space: Яра вер
+return: Пурташ
+return-alts:
+  search: Муаш
+  go: Куснаш
+  send: Колташ
+  join: Ушаш
+  continue: Шуяш
+  done: Ямде
+  next: Умбакыже
+  route: Корно
+emergency: SOS
+cancel: Чараш
+undo: Кучылташ огыл
+redo: Угыч ышташ
