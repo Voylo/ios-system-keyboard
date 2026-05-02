@@ -19,6 +19,7 @@ kjh: Хакас
 Versions sorting for iPhone:
 
 * kjh-4-rows.yaml
+* kjh-4-rows-optimal.yaml
 * kjh-3-rows.yaml
 * kjh-3-rows-rus.yaml
 
