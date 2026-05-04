@@ -1,0 +1,38 @@
+displayNames:
+  en: Udmurt (4 rows)
+  ru: Удмуртский (4 ряда)
+  udm: Удмурт (4 чур)
+
+decimal: ','
+ABC: 'ӞӤӦ'
+abc: 'ӟӥӧ'
+
+iOS:
+  primary:
+    layers:
+      default: |
+        ё ӟ ӥ ӧ ӵ ӝ ь ъ х э
+        й ц у к е н г ш щ з
+        ф ы в а п р о л д ж
+        \s{shift} я ч с м и т б ю \s{backspace}
+      shift: |
+        Ё Ӟ Ӥ Ӧ Ӵ Ӝ Ь Ъ Х Э
+        Й Ц У К Е Н Г Ш Щ З
+        Ф Ы В А П Р О Л Д Ж
+        \s{shift} Я Ч С М И Т Б Ю \s{backspace}
+      symbols-1: |
+        1 2 3 4 5 6 7 8 9 0
+        - / : ; ( ) ₽ & @ "
+        \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+      symbols-2: |
+        [ ] { } # % ^ * + =
+        _ \ | ~ < > $ € ¥ •
+        \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+
+  iPad-9in: !include udm-3-rows.yaml#iOS#iPad-9in
+  iPad-12in: !include udm-3-rows.yaml#iOS#iPad-12in
+  deadKeys: !include udm-3-rows.yaml#iOS#deadKeys
+
+longpress: !include udm-longpress-short.yaml
+
+keyNames: !include udm-keynames.yaml

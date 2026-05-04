@@ -1,0 +1,15 @@
+space: Вис
+return: Пыртон
+return-alts:
+  search: Утчано
+  go: Мыноно
+  send: Келяно
+  join: Пыроно
+  route: Сюрес
+  next: Азьлань
+  continue: Азьланьтоно
+  done: Дась
+emergency: SOS
+cancel: Берлань
+undo: Берланьтоно
+redo: Берыктоно
