@@ -29,6 +29,8 @@ Two iOS layouts are currently provided:
 - `che-3-rows.yaml` — primary layout
 - `che-3-rows-ycuken.yaml` — Russian-based ЙЦУКЕН variant
 
+`che-3-rows.yaml` is the default layout and appears first in list ordering. `che-3-rows-ycuken.yaml` is the secondary variant.
+
 The primary layout is based on frequency analysis of the Chechen corpus at https://corpora.dosham.info.
 
 The Russian-based ЙЦУКЕН variant is intended for users who prefer minimal deviation from the familiar Russian layout.
@@ -61,5 +63,5 @@ Examples:
 - `ч → чӏ`
 
 The Chechen palochka must use the correct Unicode forms:
-- lowercase: `ӏ`
-- uppercase: `Ӏ`
+- lowercase: `ӏ` (U+04C1)
+- uppercase: `Ӏ` (U+04C0)
