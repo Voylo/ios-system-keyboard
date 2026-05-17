@@ -2,27 +2,17 @@
 
 **Language**: Kaitag (_Хайдаҡӏла_)  
 **ISO 639-3**: `xdq`  
-**Script**: Cyrillic, v1.2 (May 2026)
+**Script**: Cyrillic, v1.2 (May 2026) — [urssivar/script](https://github.com/urssivar/script)
 
-**Script spec**: [Urssivar/Script](https://github.com/urssivar/script)
+The modern Kaitag alphabet consists of 24 Russian letters (excluding Ёё, Фф, Щщ, Ъъ, Ыы, Ьь, Ээ, Юю, Яя), 6 extended Cyrillic letters (Әә, Ғғ, Ҡҡ, Ҳҳ, Һһ, Ӏӏ), and 12 digraphs. Extended notation includes vowels with acute accents for stress and additional digraphs for non-phonemic sounds.
 
-## Script Overview
-
-The modern Kaitag alphabet consists of 30 unique characters: 24 Russian letters plus 6 extended Cyrillic — **ә** /æ/, **ғ** /ʁ/, **ҡ** /q/, **ҳ** /x/, **һ** /h/, **ӏ** /ʔ/ — totalling 42 letters when digraphs for geminates and ejectives are counted.
-
-Nine Russian letters are absent from the core Kaitag alphabet: **ё щ ф ъ ы ь э ю я**. Six are replaced by extended Cyrillic characters; but any Russian letters appearing in loanwords remain accessible via long-press.
-
-All layouts are built on the standard Russian ЙЦУКЕН to minimize disruption for existing keyboard users.
-
-**Language switcher**: `ҡғҳ` (from _ҡҡуғадеҳ_ — "happiness")
+Input methods are based on the standard Russian ЙЦУКЕН layout. **Language switcher**: `ҡғҳ` (from _ҡҡуғадеҳ_ — "happiness")
 
 ## iOS
 
-Two layout variants are available.
-
 ### 3-Row (`xdq-3-rows`)
 
-The default variant. Six positions of excluded Russian letters are replaced by Kaitag-specific ones, placed roughly by frequency:
+Replaces `щ`, `ф`, `ы`, `э`, `ь`, `ю` with `ә`, `ӏ`, `һ`, `ҳ`, `ҡ`, `ғ`, keeping `я`. More frequent Kaitag letters occupy more accessible keys.
 
 ```text
 й ц у к е н г ш ә з х
@@ -30,7 +20,7 @@ The default variant. Six positions of excluded Russian letters are replaced by K
   я ч с м и т ҡ б ғ
 ```
 
-Excluded Russian letters and stressed vowels are accessible via long-press:
+Accented vowels for stress marking and excluded Russian letters are accessible via long-press:
 
 - `у` → `ю` `у́`
 - `е` → `э` `е́` `ё`
@@ -45,16 +35,16 @@ Excluded Russian letters and stressed vowels are accessible via long-press:
 
 ### 4-Row (`xdq-4-rows`)
 
-An alternative for users who prefer not to long-press for Russian letters. Rows 2–4 are identical to the standard Russian ЙЦУКЕН; all Kaitag-specific characters appear in a dedicated top row:
+Leaves the Russian ЙЦУКЕН intact and adds new keys above:
 
 ```text
-' ! ? ғ ҡ ӏ һ ә ҳ — "
+, ! ? ғ ҡ ӏ һ ә ҳ — .
 й ц у к е н г ш щ з х
 ф ы в а п р о л д ж э
   я ч с м и т ь б ю
 ```
 
-Stressed vowels are accessible via long-press:
+Accented vowels are accessible via long-press:
 
 - `ә` → `ә́`
 - `у` → `у́`
@@ -70,15 +60,13 @@ Stressed vowels are accessible via long-press:
 
 ### iPad
 
-Both variants share the same iPad layouts.
-
-The **9-inch iPad** adds `ю` and `ъ` as direct keys in the third row, taking advantage of the extra width.
+The **9-inch iPad** adds `ю` and `ъ` as direct keys in the third row.
 
 The **12-inch iPad** uses a full physical-keyboard-style layout with a number row. The third row is expanded to recover displaced Russian letters: `ы ь`.
 
 ## macOS
 
-The layout follows ЙЦУКЕН with Kaitag substitutions in place. Displaced Russian letters are accessible via the `Option` (`⌥`) layer:
+Follows ЙЦУКЕН with Kaitag substitutions. Displaced Russian letters are accessible via `⌥`:
 
 - `⌥` `ә` = `щ`
 - `⌥` `ӏ` = `ф`
@@ -87,7 +75,7 @@ The layout follows ЙЦУКЕН with Kaitag substitutions in place. Displaced Ru
 - `⌥` `ҡ` = `ь`
 - `⌥` `ғ` = `ю`
 
-The alt layer also provides common typographic symbols: `№ ~ © ® ° · § « » – — ™ ∞ µ ≈ ≠ ≤ ≥ ‹ › ‚ „`.
+Common typographic symbols are in the `⌥` layer: `№ ~ © ® ° · § « » – — ™ ∞ µ ≈ ≠ ≤ ≥ ‹ › ‚ „`.
 
 A dead key `´` is available for stressed vowels: `⌥` `´` + `а` = `а́`.
 
