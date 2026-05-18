@@ -12,12 +12,12 @@ Input methods are based on the standard Russian ЙЦУКЕН layout. **Language 
 
 ### 3-Row (`xdq-3-rows`)
 
-Replaces `щ`, `ф`, `ы`, `э`, `ь`, `ю` with `ә`, `ӏ`, `һ`, `ҳ`, `ҡ`, `ғ`, keeping `я`. More frequent Kaitag letters occupy more accessible keys.
+Replaces `щ`, `ф`, `ы`, `э`, `ь`, `ю` with `ӏ`, `ҡ`, `һ`, `ҳ`, `ә`, `ғ`, keeping `я`. More frequent Kaitag letters occupy more accessible keys.
 
 ```text
-й ц у к е н г ш ә з х
-ӏ һ в а п р о л д ж ҳ
-  я ч с м и т ҡ б ғ
+й ц у к е н г ш ӏ з х
+ҡ һ в а п р о л д ж ҳ
+  я ч с м и т ә б ғ
 ```
 
 Accented vowels for stress marking and excluded Russian letters are accessible via long-press:
@@ -25,20 +25,20 @@ Accented vowels for stress marking and excluded Russian letters are accessible v
 - `у` → `ю` `у́`
 - `е` → `э` `е́` `ё`
 - `ш` → `щ`
-- `ә` → `ә́`
 - `ӏ` → `ъ`
 - `һ` → `ь`
 - `а` → `я` `а́`
 - `п` → `ф`
 - `о` → `о́`
 - `и` → `ы` `и́`
+- `ә` → `ә́`
 
 ### 4-Row (`xdq-4-rows`)
 
 Leaves the Russian ЙЦУКЕН intact and adds new keys above:
 
 ```text
-, ! ? ғ ҡ ӏ һ ә ҳ — .
+, ! ? ғ ҡ һ ӏ ә ҳ — .
 й ц у к е н г ш щ з х
 ф ы в а п р о л д ж э
   я ч с м и т ь б ю
