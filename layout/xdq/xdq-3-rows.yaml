@@ -1,7 +1,4 @@
-displayNames:
-  en: Kaitag
-  ru: Кайтагский
-  xdq: Хайдаҡӏла
+displayNames: !include xdq-display-names.yaml
 
 decimal: ','
 ABC: 'ҠҒҲ'
@@ -89,4 +86,4 @@ iOS:
 
 longpress: !include xdq-longpress.yaml
 
-keyNames: !include xdq-keynames.yaml
+keyNames: !include xdq-key-names.yaml

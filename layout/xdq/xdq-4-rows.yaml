@@ -1,7 +1,4 @@
-displayNames:
-  en: Kaitag
-  ru: Кайтагский
-  xdq: Хайдаҡӏла
+displayNames: !include xdq-display-names.yaml
 
 decimal: ','
 ABC: 'ҠҒҲ'
