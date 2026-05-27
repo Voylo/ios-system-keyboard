@@ -91,16 +91,16 @@ longpress: !include bua-longpress.yaml
 
 keyNames:
   space: Зай
-  return: Оруулха
+  return: Оруулга
   return-alts:
     search: Бэдэрхэ
     go: Шэлжэхэ
     send: Эльгээхэ
-    join: Нэмэжэ залгаха
+    join: Оруулха
     route: Зам
     next: Удаадахи
-    continue: Үргэлжэлүүлхэ
+    continue: Утадхаха
     done: Бэлэн
   cancel: Болюулха
-  undo: Хэрэглэхэгүй
+  undo: Арсаха
   redo: Дабтаха
