@@ -41,7 +41,7 @@ macOS:
           a s d f g h j k l ; '
           z x c v b n m , . /
       cmd+shift: &CMD+SHIFT |
-        ~ ! @ # $ % ^ & * ( ) _ +  
+        ~ ! @ # $ % ^ & * ( ) _ +
           Q W E R T Y U I O P { } |
           A S D F G H J K L : "
           Z X C V B N M < > ?
@@ -51,4 +51,4 @@ macOS:
     alt: []
     alt+caps: []
 
-longpress: !include tat-longpress.yaml
+longpress: !include tat-3-rows-longpress.yaml
