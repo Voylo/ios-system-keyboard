@@ -11,5 +11,5 @@ return-alts:
   done: Булды
 emergency: SOS
 cancel: Баш тарту
-undo: Кире кагу
-redo: Кайтару
+undo: Кире кайтару
+redo: Кабатлау

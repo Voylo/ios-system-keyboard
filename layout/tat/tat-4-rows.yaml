@@ -3,6 +3,8 @@ displayNames:
   ru: Татарский (4 ряда)
   tt: Татарча (4 рәт)
 
+order: 3
+
 decimal: ','
 ABC: 'АӘБ'
 abc: 'аәб'
@@ -32,6 +34,6 @@ iOS:
   iPad-12in: !include tat-3-rows.yaml#iOS#iPad-12in
   deadKeys: !include tat-3-rows.yaml#iOS#deadKeys
 
-longpress: !include tat-3-rows-rus-longpress.yaml
+longpress: !include tat-4-rows-longpress.yaml
 
 keyNames: !include keynames-tat.yaml
