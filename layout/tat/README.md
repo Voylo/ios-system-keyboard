@@ -67,7 +67,7 @@ The Russian-based version keeps the standard Russian layout, extended with dedic
 
 Siberian Tatar letters Ҡ and Ғ are additionally available via longpress on К and Г in all variants.
 
-For iPad there are 2 versions: the national one (tat-3-rows, also reused by tat-4-rows) and the Russian-based one (tat-3-rows-rus), because there is enough space to put all Tatar letters in both. The 4-rows variant uses its own longpress set (`tat-4-rows-longpress.yaml`) that combines the Russian-based mappings with Ө → Ц, Ә → Щ, Ң → Ж, so the displaced Russian letters stay reachable on the national iPad layers.
+Each variant has its own iPad layers. The national (tat-3-rows) and Russian-based (tat-3-rows-rus) versions use the standard 3-row iPad design, because there is enough space to put all Tatar letters in both. The 4-rows version keeps its dedicated Tatar letter row on iPad as well: 4 letter rows on 9–11″ iPads and 5 rows (including the number row) on 12.9″ iPads. Thanks to that, its longpress set (`tat-4-rows-longpress.yaml`) stays minimal — only Ҡ, Ғ and the common symbol longpresses — since all Tatar letters and the displaced Russian letters have dedicated keys on every layout.
 
 ## Tatar macOS
 
