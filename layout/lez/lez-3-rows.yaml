@@ -91,17 +91,17 @@ longpress: !include lez-longpress.yaml
 
 keyNames:
   space: Ара
-  return: Кхьин
+  return: Тун
   return-alts:
     search: Жагъурун
     go: Фин
     send: Ракъурун 
     join: Кутун
     continue: Давамрун
-    done: Гьазур я
+    done: Хьана
     next: Къведай
     route: Рехъ
-  emergency: SOS
-  cancel: Кьулухъ хтун
+  emergency: Хата гьалар
+  cancel: Акъваз
   undo: Тавун
-  redo: Мад хъавун
+  redo: Мад авун
