@@ -1,0 +1,15 @@
+space: Буш ара
+return: Керт
+return-alts:
+  search: Эзлә
+  go: Күч
+  send: Җибәр
+  join: Тоташу
+  route: Маршрут
+  next: Алга
+  continue: Дәвам итү
+  done: Булды
+emergency: SOS
+cancel: Баш тарту
+undo: Кире кайтару
+redo: Кабатлау
