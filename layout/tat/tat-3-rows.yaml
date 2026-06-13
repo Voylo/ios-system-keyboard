@@ -3,9 +3,6 @@ displayNames:
   ru: Татарский
   tt: Татарча
 
-order: 1
-label: 'standard'
-
 decimal: ','
 ABC: 'АӘБ'
 abc: 'аәб'
@@ -92,4 +89,4 @@ iOS:
 
 longpress: !include tat-3-rows-longpress.yaml
 
-keyNames: !include keynames-tat.yaml
+keyNames: !include tat-keynames.yaml

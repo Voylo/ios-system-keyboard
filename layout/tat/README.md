@@ -21,11 +21,10 @@ Language codes:
 
 ## Tatar iOS
 
-There are 3 variants: tat-3-rows (primary), tat-3-rows-rus, and tat-4-rows.
+There are 2 variants: tat-3-rows (primary) and tat-4-rows.
 
-Versions sorting for iPhone (enforced via `order:` fields in the YAML files):
+Versions sorting for iPhone (the primary `tat-3-rows` sorts first; `tat-4-rows` follows):
 * tat-3-rows.yaml
-* tat-3-rows-rus.yaml
 * tat-4-rows.yaml
 
 #### Татарча — national layout
@@ -39,18 +38,6 @@ Versions sorting for iPhone (enforced via `order:` fields in the YAML files):
 ```
 
 3 rows layout is the national Tatar layout. Tatar letters (Ә, Ө, Ү, Җ, Ң, Һ) have dedicated keys, while the displaced Russian letters (Ц, Щ, Ж, Ё, Ъ) are accessible via longpress on related keys (Ө, Ә, Ң, Е, Ь).
-
-#### Татарча (урыс) — Russian-based layout
-
-`tat-3-rows-rus.yaml`
-
-```
-й ц у к е н г ш щ з х ү
-ф ы в а п р о л д ж э ә
-я ч с м и т ь б ю ң
-```
-
-The Russian-based version keeps the standard Russian layout, extended with dedicated Ү, Ә, Ң keys; all Tatar letters are also accessible via longpress on related Russian letters (У → Ү, О → Ө, Н → Ң, Х → Һ, А → Ә, Ж → Җ).
 
 #### Татарча (4 рәт) — 4 rows
 
@@ -67,37 +54,22 @@ The Russian-based version keeps the standard Russian layout, extended with dedic
 
 Siberian Tatar letters Ҡ and Ғ are additionally available via longpress on К and Г in all variants.
 
-Each variant has its own iPad layers. The national (tat-3-rows) and Russian-based (tat-3-rows-rus) versions use the standard 3-row iPad design, because there is enough space to put all Tatar letters in both. The 4-rows version keeps its dedicated Tatar letter row on iPad as well: 4 letter rows on 9–11″ iPads and 5 rows (including the number row) on 12.9″ iPads. Thanks to that, its longpress set (`tat-4-rows-longpress.yaml`) stays minimal — only Ҡ, Ғ and the common symbol longpresses — since all Tatar letters and the displaced Russian letters have dedicated keys on every layout.
+Each variant has its own iPad layers. The national (tat-3-rows) version uses the standard 3-row iPad design, because there is enough space to put all Tatar letters. The 4-rows version keeps its dedicated Tatar letter row on iPad as well: 4 letter rows on 9–11″ iPads and 5 rows (including the number row) on 12.9″ iPads. Thanks to that, its longpress set (`tat-4-rows-longpress.yaml`) stays minimal — only Ҡ, Ғ and the common symbol longpresses — since all Tatar letters and the displaced Russian letters have dedicated keys on every layout.
 
 ## Tatar macOS
 
-There are two macOS variants:
-
-#### Татарча — Apple-style
-
-`tat-macos.yaml` – standard Russian ЙЦУКЕН layout; Tatar letters are accessible via `Option` (aka `ALT`).
-
-```
-] 1 2 3 4 5 6 7 8 9 0 - =
-  й ц у к е н г ш щ з х ъ ё
-  ф ы в а п р о л д ж э
-  я ч с м и т ь б ю .
-```
-
-#### Татарча (ПК) — PC-style
-
-`tat-macos-pc.yaml` – the national Tatar layout known from Windows PCs; the displaced Russian letters (Ц, Щ, Ж, Ё, Ъ, Ь) are accessible via `Option`.
+`tat-macos.yaml` — the national Tatar layout known from Windows PCs. Tatar letters Ә, Ө, Ү, Ң, Җ, Һ have dedicated keys; the displaced Russian letters (Ц, Щ, Ж, Ё, Ъ, Ь) are accessible via `Option` (aka `ALT`).
 
 ```
 ] 1 2 3 4 5 6 7 8 9 0 - =
   й ө у к е н г ш ә з х ү һ
   ф ы в а п р о л д ң э
-  я ч с м и т җ б ю .
+  я ч с м и т җ б ю /
 ```
 
 ## Tatar keyNames
 
-System buttons are localized into Tatar in `keynames-tat.yaml` using common system button labels, shared by all layout variants.
+System buttons are localized into Tatar in `tat-keynames.yaml` using common system button labels, shared by all layout variants.
 
 ## References
 
