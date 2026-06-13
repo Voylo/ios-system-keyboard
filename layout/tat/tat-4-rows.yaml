@@ -1,9 +1,10 @@
 displayNames:
-  en: Tatar (4 rows)
-  ru: Татарский (4 ряда)
-  tt: Татарча (4 рәт)
+  en: Tatar
+  ru: Татарский
+  tt: Татарча
 
-order: 3
+order: 2
+label: 'extended'
 
 decimal: ','
 ABC: 'АӘБ'

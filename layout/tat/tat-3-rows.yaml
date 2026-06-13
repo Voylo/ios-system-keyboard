@@ -4,6 +4,7 @@ displayNames:
   tt: Татарча
 
 order: 1
+label: 'standard'
 
 decimal: ','
 ABC: 'АӘБ'
