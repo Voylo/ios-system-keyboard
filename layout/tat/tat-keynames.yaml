@@ -1,9 +1,9 @@
 space: Буш ара
-return: Керт
+return: Кертү
 return-alts:
-  search: Эзлә
-  go: Күч
-  send: Җибәр
+  search: Эзләү
+  go: Күчү
+  send: Җибәрү
   join: Тоташу
   route: Маршрут
   next: Алга
@@ -11,5 +11,5 @@ return-alts:
   done: Булды
 emergency: SOS
 cancel: Баш тарту
-undo: Кире кайтару
-redo: Кабатлау
+undo: Кире кагу
+redo: Кайтару
