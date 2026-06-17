@@ -197,13 +197,33 @@ def discover():
             }
             # macOS check
             macos_dir = LAYOUT / code
-            macos_files = list(macos_dir.glob("*-macos.yaml"))
+            macos_files = sorted(macos_dir.glob("*-macos*.yaml"))
             if macos_files:
                 langs_by_code[code]["macos"] = []
                 for mf in macos_files:
+                    clean_stem = mf.stem.replace("-macos", "")
+                    variant = clean_stem.replace(code, "").strip("-")
+                    if variant:
+                        v_map = {
+                            "alt": "альтернативная",
+                            "pc": "PC",
+                            "standard": "стандартная",
+                            "standard-4-rows": "стандартная 4 ряда",
+                            "yandex-4-rows": "Yandex 4 ряда",
+                            "google": "Google",
+                            "3-rows": "3 ряда",
+                            "ergonomic": "эргономичная",
+                            "ergonomic-extended": "эргономичная расширенная",
+                            "rus": "русская"
+                        }
+                        v_name = v_map.get(variant, variant.replace("-", " "))
+                        name = f"{langs_by_code[code]['name']} ({v_name})"
+                    else:
+                        name = langs_by_code[code]["name"]
+                    
                     langs_by_code[code]["macos"].append({
-                        "name": langs_by_code[code]["name"],
-                        "file": f"{mf.stem}.keylayout"
+                        "name": name,
+                        "file": f"{clean_stem}.keylayout"
                     })
         
         kn = data.get("keyNames") or data.get("keynames") or {}
