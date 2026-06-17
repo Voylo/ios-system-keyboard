@@ -7,98 +7,53 @@ Keyboard layout for the **Buryat language** (ISO 639-3: `bua`), Mongolic languag
 * **ISO 639-3**: `bua`
 * **ISO 15924**: `Cyrl`
 
-```yaml
-displayNames:
-  en: Buryat
-  ru: Бурятский
-  bua: Буряад
-```
+## Layouts
 
-## Buryat iOS
+Two layouts, each for iOS and macOS.
+The order in the list is the sort order — **the first layout is the default one.**
 
 Versions sorting for iPhone:
+* `bua-3-rows.yaml` — Mongolian-based (default)
+* `bua-rus-3-rows.yaml` — Russian-based
 
-* bua-3-rows.yaml (Mobile-optimized)
-* bua-3-rows-nm.yaml (New Mongolian-like)
+Versions sorting for macOS:
+* `bua-macos.yaml` — Mongolian-based (default)
+* `bua-rus-macos.yaml` — Russian-based
 
-## Buryat macOS
+### 1. Mongolian-based — default
 
-Two variants available:
+The letter arrangement follows the national Mongolian keyboard
+(Windows KBDMON / MNS standard): `ө` on the `F` key, `ү` on `O`, `е`/`щ` on `-`/`=`.
+`Һ` is added for Buryat.
 
-* **Buryat (Standard)**: Replaces `ЦФЩ` with `ҮҺӨ`. Original letters accessible via `Option`.
-* **Buryat (Mongolian)**: Follows the `nm` layout pattern (12-key rows).
+On both platforms this is the main Buryat layout, named simply **"Buryat"**
+(the Russian-based variant is marked as "(Russian)").
 
-## Details
+* **macOS** — `Һ` on the `\` key; the number row follows the Mongolian pattern: without `Shift` — punctuation and `₽` (ruble instead of the Mongolian tugrik), digits via `Shift`.
+* **iOS** — `Һ` in the bottom row between `Т` and `Ь`; `щ`/`ъ` via long-press (`ш → щ`, `ь → ъ`).
 
-### Алфавит / Alphabet
+Files: `bua-3-rows.yaml` (iOS), `bua-macos.yaml` (macOS), `bua-longpress.yaml`.
 
-36 letters: 33 Russian + 3 Buryat-specific (Ө, Ү, Һ).
+Source of the Mongolian layout: <https://learn.microsoft.com/globalization/keyboards/kbdmon>
 
-```
-'а' CYRILLIC SMALL LETTER A
-'б' CYRILLIC SMALL LETTER BE
-'в' CYRILLIC SMALL LETTER VE
-'г' CYRILLIC SMALL LETTER GHE
-'д' CYRILLIC SMALL LETTER DE
-'е' CYRILLIC SMALL LETTER IE
-'ё' CYRILLIC SMALL LETTER IO
-'ж' CYRILLIC SMALL LETTER ZHE
-'з' CYRILLIC SMALL LETTER ZE
-'и' CYRILLIC SMALL LETTER I
-'й' CYRILLIC SMALL LETTER SHORT I
-'к' CYRILLIC SMALL LETTER KA
-'л' CYRILLIC SMALL LETTER EL
-'м' CYRILLIC SMALL LETTER EM
-'н' CYRILLIC SMALL LETTER EN
-'о' CYRILLIC SMALL LETTER O
-'ө' CYRILLIC SMALL LETTER BARRED O
-'п' CYRILLIC SMALL LETTER PE
-'р' CYRILLIC SMALL LETTER ER
-'с' CYRILLIC SMALL LETTER ES
-'т' CYRILLIC SMALL LETTER TE
-'у' CYRILLIC SMALL LETTER U
-'ү' CYRILLIC SMALL LETTER STRAIGHT U
-'ф' CYRILLIC SMALL LETTER EF
-'х' CYRILLIC SMALL LETTER HA
-'һ' CYRILLIC SMALL LETTER SHHA
-'ц' CYRILLIC SMALL LETTER TSE
-'ч' CYRILLIC SMALL LETTER CHE
-'ш' CYRILLIC SMALL LETTER SHA
-'щ' CYRILLIC SMALL LETTER SHCHA
-'ъ' CYRILLIC SMALL LETTER HARD SIGN
-'ы' CYRILLIC SMALL LETTER YERU
-'ь' CYRILLIC SMALL LETTER SOFT SIGN
-'э' CYRILLIC SMALL LETTER E
-'ю' CYRILLIC SMALL LETTER YU
-'я' CYRILLIC SMALL LETTER YA
-```
+### 2. Russian-based (`bua-rus`)
 
-### Названия клавиш / Key names
+The full Russian ЙЦУКЕН layout without changes — all Russian letters stay in place.
+The Buryat letters `Ө Ү Һ` are typed on the look-alike Russian keys:
 
-```yaml
-keyNames:
-  space: Зай
-  return: Оруулха
-  return-alts:
-    search: Бэдэрхэ
-    go: Шэлжэхэ
-    send: Эльгээхэ
-    join: Холбогдохо
-    route: Зам
-    next: Удаадахи
-    continue: Үргэжүүлхэ
-    done: Бэлэн
-  cancel: Болюулха
-  undo: Бусааха
-  redo: Һэргээхэ
-```
+* **iOS** — long-press: `у → ү`, `о → ө`, `х → һ`
+* **macOS** — Option (⌥): `⌥у → ү`, `⌥о → ө`, `⌥х → һ` (uppercase via `⌥⇧`)
 
-## Разработчик / Developer
+Files: `bua-rus-3-rows.yaml` (iOS), `bua-rus-macos.yaml` (macOS), `bua-rus-longpress.yaml`.
+
+The alphabet has 36 letters: 33 Russian + 3 Buryat-specific (Ө, Ү, Һ).
+
+## Developer
 
 * Али Кужугет / Ali Kuzhuget
 * Булат Дамдинов / Bulat Damdinov
 
-## Ссылки / References
+## References
 
 - [Buryat language — Wikipedia](https://en.wikipedia.org/wiki/Buryat_language)
 - [Бурятский язык — Википедия](https://ru.wikipedia.org/wiki/Бурятский_язык)
