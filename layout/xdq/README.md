@@ -38,13 +38,11 @@ Accented vowels for stress marking and excluded Russian letters are accessible v
 Leaves the Russian ЙЦУКЕН intact and adds new keys above:
 
 ```text
-, ! ? ҳ ҡ ә һ ӏ ғ — .
+' ! ? ҳ ҡ ә һ ӏ ғ — "
 й ц у к е н г ш щ з х
 ф ы в а п р о л д ж э
   я ч с м и т ь б ю
 ```
-
-_The corner keys are `,` and `.` here; the canonical layout uses `'` and `"`, falling back to `,` and `.` on keyboards (like iOS) that lack them around the spacebar._
 
 Accented vowels are accessible via long-press:
 
