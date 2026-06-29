@@ -1041,7 +1041,7 @@ def generate_html_viewer(data_groups, lp_map):
       // Simple syntax highlighting
       let highlighted = xml
         .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-        .replace(/(&lt;\/?)([\w:]+)/g, '$1<span class="tag">$2</span>')
+        .replace(/(&lt;\\/?)([\w:]+)/g, '$1<span class="tag">$2</span>')
         .replace(/([\w:-]+)=(".*?")/g, '<span class="attr">$1</span>=<span class="val">$2</span>')
         .replace(/(&lt;!--.*?--&gt;)/g, '<span class="cmnt">$1</span>');
       document.getElementById('xmlCode').innerHTML = highlighted;
@@ -1073,12 +1073,15 @@ def generate_html_viewer(data_groups, lp_map):
         f.write(html_template)
     print(f"✅ Создано (в проекте): {out_file} ({len(html_template)//1024} KB)")
     
-    # Сохраняем копию в директорию артефактов
-    ARTIFACT_DIR.mkdir(exist_ok=True)
-    art_file = ARTIFACT_DIR / "ldml_keyboards.html"
-    with open(art_file, "w", encoding="utf-8") as f:
-        f.write(html_template)
-    print(f"✅ Создано (артефакт): {art_file}")
+    # Сохраняем копию в директорию артефактов (если доступна)
+    try:
+        ARTIFACT_DIR.mkdir(parents=True, exist_ok=True)
+        art_file = ARTIFACT_DIR / "ldml_keyboards.html"
+        with open(art_file, "w", encoding="utf-8") as f:
+            f.write(html_template)
+        print(f"✅ Создано (артефакт): {art_file}")
+    except Exception as e:
+        print(f"ℹ️ Пропущено сохранение артефакта Antigravity (не критично для CI): {e}")
 
 if __name__ == "__main__":
     data_groups, lp_map = discover()
