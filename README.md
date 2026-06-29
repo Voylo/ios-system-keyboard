@@ -17,15 +17,26 @@ At a minimum, you need to describe the files ``lang-3-rows.yaml`` and ``lang-lon
 ### A familiar example
 Most of you are familiar with the system keyboard for Russian. It's described [here (click here)](https://github.com/Agisight/ios-system-keyboard/tree/main/layout/rus).
 
+## 🚀 Interactive Viewers & Generators
+We provide two zero-dependency standalone HTML artifacts in `dist/` that compile the entire dataset:
+1. **iOS Keyboard Viewer (`dist/ios-keyboards.html`)** — Solves our **main task**: visual preview and UI validation of native iOS touch keyboard layouts across 47 Indigenous and minority languages of Russia.
+2. **LDML 3.0 Touch Emulator (`dist/ldml-keyboards.html`)** — Solves our **supplementary task**: data preparation and interactive testing for **CLDR Unicode Keyboard3 (LDML 3.0)** touch profiles (`formId="touch"`). Features live longpress UX testing, bilingual UI (EN/RU toggle), and architectural placeholders for future PC/Mac hardware forms (`us`, `iso`).
+
 ## 🧩 Repository Structure
 ```
 ios-system-keyboard/
+ ├── dist/
+ │   ├── ios-keyboards.html    # iOS layout viewer
+ │   └── ldml-keyboards.html   # LDML 3.0 touch emulator & XML generator
  ├── layout/tyv/
  │   ├── tyv-3-rows.yaml
  │   ├── tyv-4-rows.yaml
  │   ├── tyv-longpress.yaml
  │   ├── tyv-macos.yaml
  │   └── tyv-3-rows.png
+ ├── scripts/
+ │   ├── build.py              # Generates ios-keyboards.html
+ │   └── build_ldml.py         # Generates ldml-keyboards.html
  └── README.md
 ```
 
@@ -88,15 +99,26 @@ Project: *Apple Keyboards for All*
 ### Знакомый пример
 Большинство из вас хорошо знакомы с системной клавиатурой для Русского языка. Она описана [тут (тык сюда)](https://github.com/Agisight/ios-system-keyboard/tree/main/layout/rus).
 
+## 🚀 Интерактивные эмуляторы и генераторы
+Проект автоматически генерирует два автономных HTML-артефакта в папке `dist/`, которые решают наши ключевые задачи:
+1. **Интерактивный просмотрщик iOS (`dist/ios-keyboards.html`)** — Решает **главную задачу**: наглядная визуализация и сверка экранных клавиатур iOS для 47 языков народов РФ.
+2. **Эмулятор и генератор LDML 3.0 (`dist/ldml-keyboards.html`)** — Решает **дополнительную задачу**: подготовка данных и верификация спецификации **CLDR Unicode Keyboard3 (LDML 3.0)** для сенсорных экранов (`formId="touch"`). Включает тестирование долгих нажатий (лонгпрессов), переключение интерфейса EN/RU и архитектурные плейсхолдеры для последующего подключения аппаратных десктопных раскладок (`us`, `iso`).
+
 ## 🧩 Структура репозитория
 ```
 ios-system-keyboard/
+ ├── dist/
+ │   ├── ios-keyboards.html    # Просмотрщик iOS раскладок
+ │   └── ldml-keyboards.html   # Эмулятор и генератор LDML 3.0 touch
  ├── layout/tyv/
  │   ├── tyv-3-rows.yaml
  │   ├── tyv-4-rows.yaml
  │   ├── tyv-longpress.yaml
  │   ├── tyv-macos.yaml
  │   └── tyv-3-rows.png
+ ├── scripts/
+ │   ├── build.py              # Генератор ios-keyboards.html
+ │   └── build_ldml.py         # Генератор ldml-keyboards.html
  └── README.md
 ```
 
