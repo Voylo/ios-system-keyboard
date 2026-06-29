@@ -19,7 +19,7 @@ Most of you are familiar with the system keyboard for Russian. It's described [h
 
 ## 🚀 Interactive Viewers & Generators
 We provide two zero-dependency standalone HTML artifacts in `dist/` that compile the entire dataset:
-1. **iOS Keyboard Viewer (`dist/ios-keyboards.html`)** — Solves our **main task**: visual preview and UI validation of native iOS touch keyboard layouts across 47 Indigenous and minority languages of Russia.
+1. **iOS Keyboard Viewer (`dist/ios-keyboards.html`)** — Solves our **main task**: visual preview and UI validation of native iOS touch keyboard layouts (currently featuring 47 layout profiles across 23 Indigenous and minority languages of Russia).
 2. **LDML 3.0 Touch Emulator (`dist/ldml-keyboards.html`)** — Solves our **supplementary task**: data preparation and interactive testing for **CLDR Unicode Keyboard3 (LDML 3.0)** touch profiles (`formId="touch"`). Features live longpress UX testing, bilingual UI (EN/RU toggle), and architectural placeholders for future PC/Mac hardware forms (`us`, `iso`).
 
 ## 🧩 Repository Structure
@@ -101,7 +101,7 @@ Project: *Apple Keyboards for All*
 
 ## 🚀 Интерактивные эмуляторы и генераторы
 Проект автоматически генерирует два автономных HTML-артефакта в папке `dist/`, которые решают наши ключевые задачи:
-1. **Интерактивный просмотрщик iOS (`dist/ios-keyboards.html`)** — Решает **главную задачу**: наглядная визуализация и сверка экранных клавиатур iOS для 47 языков народов РФ.
+1. **Интерактивный просмотрщик iOS (`dist/ios-keyboards.html`)** — Решает **главную задачу**: наглядная визуализация и сверка экранных клавиатур iOS (на данный момент 47 профилей раскладок для 23 языков народов РФ).
 2. **Эмулятор и генератор LDML 3.0 (`dist/ldml-keyboards.html`)** — Решает **дополнительную задачу**: подготовка данных и верификация спецификации **CLDR Unicode Keyboard3 (LDML 3.0)** для сенсорных экранов (`formId="touch"`). Включает тестирование долгих нажатий (лонгпрессов), переключение интерфейса EN/RU и архитектурные плейсхолдеры для последующего подключения аппаратных десктопных раскладок (`us`, `iso`).
 
 ## 🧩 Структура репозитория

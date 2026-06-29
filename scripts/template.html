@@ -312,7 +312,7 @@ function showList(anim){
   const cls=anim?'screen-inner anim-back':'screen-inner';
   let html=`<div class="${cls}">`;
   html+=sbar();
-  html+=`<div class="navbar"><div class="nb-title">Клавиатуры</div></div>`;
+  html+=`<div class="navbar" style="display:flex;justify-content:space-between;align-items:center;padding-right:16px;"><div class="nb-title">Клавиатуры</div><a href="ldml-keyboards.html" style="font-size:13px;color:var(--accent);text-decoration:none;font-weight:600;background:rgba(0,122,255,0.1);padding:4px 10px;border-radius:12px;">LDML 3.0 ›</a></div>`;
   html+=`<div class="list-view">`;
   DATA.forEach(sec=>{
     html+=`<div class="lv-section-title">${sec.group}</div>`;

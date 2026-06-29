@@ -606,7 +606,10 @@ def generate_html_viewer(data_groups, lp_map):
     <div class="sidebar-header">
       <div style="display:flex; justify-content:space-between; align-items:flex-start; width:100%;">
         <h1 id="uiTitle">LDML Keyboards</h1>
-        <button class="lang-toggle-btn" onclick="toggleUILang()" id="uiLangBtn">🌐 RU</button>
+        <div style="display:flex; gap:6px; align-items:center;">
+          <a href="ios-keyboards.html" class="lang-toggle-btn" style="text-decoration:none; display:inline-block;" title="Go to iOS Keyboard Viewer">📱 iOS</a>
+          <button class="lang-toggle-btn" onclick="toggleUILang()" id="uiLangBtn">🌐 RU</button>
+        </div>
       </div>
       <p id="uiSubtitle">CLDR / Unicode Keyboard3 specification for languages of Russia</p>
     </div>
