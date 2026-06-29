@@ -287,7 +287,7 @@ def discover():
         if group_langs:
             try: color = next(f[1] for c, f in FAMILY.items() if f[0]==fam)
             except StopIteration: color = "#8e8e93"
-            res.append({"group":fam, "color":color, "langs":sorted(group_langs, key=lambda x: x["name"])})
+            res.append({"group":fam, "color":color, "langs":sorted(group_langs, key=lambda x: (1 if re.match(r'^[a-zA-Z]', x["name"]) else 0, x["name"]))})
     return res, lp_map
 
 if __name__ == "__main__":
