@@ -5,6 +5,7 @@ import build
 
 # Reliable English names and families
 ENG_DATA = {
+    "abk": ("Abkhaz", "Caucasian"),
     "alt": ("Altai", "Turkic"),
     "ava": ("Avar", "Caucasian"),
     "bak": ("Bashkir", "Turkic"),
