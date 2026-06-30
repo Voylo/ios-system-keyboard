@@ -1,0 +1,56 @@
+displayNames:
+  en: Abkhaz
+  ru: Абхазский
+  abk: Аԥсшәа
+
+decimal: ','
+
+# Physical macOS layout following the native "Апсуа 2" (Apsua 2) standard.
+# Base letters sit on the visible layer; the Abkhaz descender/special letters are produced with
+# the Option (⌥) modifier — the macOS equivalent of the standard's AltGr / dead key:
+#   ц→ҵ  к→қ  г→ӷ  з→ӡ  х→ҳ  п→ԥ  ч→ҷ  т→ҭ  ҽ→ҿ
+# (Ghayn ӷ and pe ԥ here match the iOS default, per the native standard.)
+# OTHER keys keep the common symbols from Apple's Russian macOS Option layer (÷ ₽ ° … ≠ ~ ≤ ≥ • etc.).
+# « » sit on two adjacent keys (Option+Shift gives the inner pair ‹ ›). The obscure ∆/†/µ are dropped
+# and the Serbian/Macedonian letters removed — those keys pass through, mirroring a standard Russian
+# physical keyboard.
+macOS:
+  primary:
+    layers:
+      default: |
+        ҟ ц у к е н г ш ә з х ҽ \
+        ф ы в а п р о л д ж '
+        џ ч с м и т ь б ҩ /
+      shift: &SHIFT |
+        Ҟ Ц У К Е Н Г Ш Ә З Х Ҽ |
+        Ф Ы В А П Р О Л Д Ж "
+        Џ Ч С М И Т Ь Б Ҩ ?
+      caps: |
+        Ҟ Ц У К Е Н Г Ш Ә З Х Ҽ \
+        Ф Ы В А П Р О Л Д Ж '
+        Џ Ч С М И Т Ь Б Ҩ /
+      caps+shift: *SHIFT
+      alt: &ALT |
+        ҟ ҵ у қ е н ӷ ш ә ӡ ҳ ҿ \
+        ф ы в ÷ ԥ ₽ ° « » … '
+        џ ҷ ≠ м и ҭ ~ ≤ ≥ “
+      alt+shift: |
+        Ҟ Ҵ У Қ Е Н Ӷ Ш Ә Ӡ Ҳ Ҿ |
+        Ф Ы В ÷ Ԥ ₽ • ‹ › … "
+        Џ Ҷ ≠ М И Ҭ ~ < > „
+      alt+caps: *ALT
+      cmd: &CMD |
+        q w e r t y u i o p [ ] \
+        a s d f g h j k l ; '
+        z x c v b n m , . /
+      cmd+shift: &CMD_SHIFT |
+        Q W E R T Y U I O P { } |
+        A S D F G H J K L : "
+        Z X C V B N M < > ?
+      cmd+alt: *CMD
+      cmd+alt+shift: *CMD_SHIFT
+  deadKeys:
+    alt: []
+    alt+caps: []
+
+longpress: !include abk-longpress.yaml

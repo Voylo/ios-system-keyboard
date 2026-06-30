@@ -1,0 +1,32 @@
+# Abkhaz long-press: special letters not on the visible layer hang off a base key.
+# On the visible layer (inline): ҵ ӡ ҟ ҽ ә џ ҩ
+# Reached via long-press:        ӷ ҕ қ ҧ ԥ ҭ ҳ ҷ ҿ
+#   note: ҿ sits under ҽ (same letter + descender), ҷ under ч.
+г: ӷ ҕ
+Г: Ӷ Ҕ
+к: қ
+К: Қ
+п: ԥ ҧ
+П: Ԥ Ҧ
+т: ҭ
+Т: Ҭ
+х: ҳ
+Х: Ҳ
+ч: ҷ
+Ч: Ҷ
+ҽ: ҿ
+Ҽ: Ҿ
+
+# Punctuation / symbol alternates (shared convention with other layouts)
+$: ₽
+'%': ‰ ∞
+'=': ≠ ≈
+'-': • – —
+'&': §
+'?': ¿
+'!': ¡
+'.': ', ; : ? ! ¿ ¡'
+"'": "' ‚ ‘ ’"
+'‘': "' ‚ ‘ ’"
+'"': '" „ “ ” « »'
+'“': '" „ “ ” « »'
