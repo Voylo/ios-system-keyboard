@@ -4,8 +4,8 @@ displayNames:
   abk: Аԥсшәа
 
 decimal: ','
-ABC: 'АБВ'
-abc: 'абв'
+ABC: 'АԤС'
+abc: 'аԥс'
 
 # 4-row dense variant: surfaces most Abkhaz-specific letters directly on the visible layer,
 # so long-press is needed only for the rarer alternates.
