@@ -19,9 +19,13 @@ Language codes:
 
 - `abk-3-rows.yaml` — primary layout. The on-screen arrangement mirrors **Gboard Android's Abkhaz
   keyboard**: the Russian ЙЦУКЕН base with seven Abkhaz letters promoted onto the visible layer
-  (`ҵ ӡ ҟ ҽ ә џ ҩ`, replacing the unused `й щ э я ю`).
+  (`ҵ ӡ ҟ ҽ ә џ ҩ`, replacing the unused `й щ э я ю`). Identical on iPhone and iPad.
 - `abk-4-rows.yaml` — dense variant that surfaces most Abkhaz-specific letters directly on the
-  visible layer, minimizing reliance on long-press.
+  visible layer, minimizing reliance on long-press. The dense 4-row arrangement is **iPhone-only**:
+  on iPad (9-inch and 12-inch) this variant intentionally falls back to the standard 3-row layout,
+  with the extra letters reached via long-press. The iPad's wider keys and roomier long-press targets
+  make the denser arrangement unnecessary there, and this matches how most other languages in this
+  repo (e.g. `sah`, `mhr`, `tyv`) structure their 4-row variants.
 
 ## Abkhaz macOS
 
