@@ -15,6 +15,7 @@ The order in the list is the sort order — **the first layout is the default on
 Versions sorting for iPhone:
 * `bua-3-rows.yaml` — Mongolian-based (default)
 * `bua-rus-3-rows.yaml` — Russian-based
+* `bua-rus-ext-3-rows.yaml` — Russian-based extended (dedicated Ө Ү Һ keys)
 
 Versions sorting for macOS:
 * `bua-macos.yaml` — Mongolian-based (default)
@@ -45,6 +46,26 @@ The Buryat letters `Ө Ү Һ` are typed on the look-alike Russian keys:
 * **macOS** — Option (⌥): `⌥у → ү`, `⌥о → ө`, `⌥х → һ` (uppercase via `⌥⇧`)
 
 Files: `bua-rus-3-rows.yaml` (iOS), `bua-rus-macos.yaml` (macOS), `bua-rus-longpress.yaml`.
+
+### 3. Russian-based extended (`bua-rus-ext`) — iOS only
+
+The Russian ЙЦУКЕН layout with the Buryat letters `Ө Ү Һ` as **dedicated keys**
+next to their look-alikes, following the Bashkir (`bak`) approach of 12 keys per row:
+
+* `ү` right after `у` (top row, 12 keys)
+* `ө` right after `о` (middle row, 12 keys)
+* `һ` between `т` and `ь` (bottom row, same position as in the Mongolian-based layout)
+
+Rationale: `ү`, `ө` and especially `һ` are high-frequency letters in Buryat
+(vowel harmony, suffixes like *-һаа, -үүд, -өөр, -гүй*), so hiding them behind
+long-press slows typing noticeably. This variant keeps the familiar Russian
+arrangement — no relearning — while frequent Buryat letters are one tap away.
+Rare letters moved to long-press: `ё` (on `е`), `ъ` (on `ь`).
+
+iOS only: on hardware keyboards (macOS) the number of physical keys is fixed,
+so the `⌥`-based `bua-rus-macos.yaml` already covers this use case.
+
+Files: `bua-rus-ext-3-rows.yaml` (iOS), `bua-rus-ext-longpress.yaml`.
 
 The alphabet has 36 letters: 33 Russian + 3 Buryat-specific (Ө, Ү, Һ).
 
