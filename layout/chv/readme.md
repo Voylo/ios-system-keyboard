@@ -54,13 +54,13 @@ Layouts sorting:
 ## macOS
 
 Layouts sorting:
-* chv-3-rows-macos.yaml
+* chv-macos.yaml
 * chv-standard-macos.yaml
 * chv-ergonomic-macos.yaml
 
 #### Чӑваш — standard layout for Apple devices
 
-`chv-3-rows-macos.yaml`
+`chv-macos.yaml`
 
 ```
 ] 1 2 3 4 5 6 7 8 9 0 - =
